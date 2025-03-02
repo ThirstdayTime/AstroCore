@@ -64,7 +64,7 @@ public final class AstroCloudCore extends SimplePlugin {
 	@EventHandler
 	public void onRightClick(final PlayerInteractEntityEvent event) {
 
-	event.getRightClicked().setFireTicks(700);
+	event.getRightClicked().setFireTicks(500);
 
 	//	if (event.getRightClicked().getType() == EntityType.ZOMBIE)
 	//		event.getRightClicked().getWorld().createExplosion(event.getRightClicked().getLocation(), 5);
